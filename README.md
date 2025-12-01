@@ -18,14 +18,14 @@ O objetivo foi desenvolver scripts em **Python** para simular o ciclo de vida co
 
 ### 1. Ransomware (Criptografia)
 Script que localiza arquivos alvo e utiliza criptografia simétrica para torná-los ilegíveis. Inclui um descodificador para recuperação.
-* **Arquivo:** `ransomware.py` e `decrypter.py`
+* **Arquivo:** `ransonware.py` e `descriptografar.py`
 ![Prova Ransomware](encriptado.png)
 
 ### 2. Keylogger (Espionagem Local Furtiva)
 Script que captura inputs do teclado e salva num log local.
 * **Técnica Stealth:** O arquivo foi configurado com extensão `.pyw` para rodar em segundo plano, sem abrir janela de terminal.
-* **Arquivo:** `keylogger_local.pyw`
-![Prova Keylogger](keylogger_proof.png)
+* **Arquivo:** `keylogger.pyw`
+![Prova Keylogger](keylogger_proof.png.png)
 
 ### 3. Exfiltração de Dados (Data Theft)
 Funcionalidade avançada que conecta a um servidor SMTP (Gmail) e envia o log de teclas capturadas diretamente para o e-mail do atacante, simulando um cenário de vazamento de credenciais.
